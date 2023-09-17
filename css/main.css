@@ -2,4 +2,221 @@
   width: 1300px;
 }
 
+.footer {
+  font-family: "Montserrat", sans-serif;
+  width: 1300px;
+  height: 800px;
+  margin: 0 auto;
+}
+.footer__top {
+  width: 100%;
+  height: 72.3%;
+  background: url(/img/Rectangle\ 27.png) no-repeat;
+  background-size: contain;
+}
+.footer__top-cont {
+  width: 35%;
+  height: 100%;
+  padding: 0.02px;
+  margin-left: 55%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+.footer__top-cont .topText {
+  color: #FFF;
+  margin-left: 5%;
+  margin-top: 25%;
+}
+.footer__top-cont .infoText {
+  color: #FFC700;
+  margin-left: 5%;
+}
+.footer__top-cont .footInput {
+  color: #FFF;
+  margin: 6%;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 80%;
+}
+.footer__top-cont .footBtn {
+  width: 40%;
+  height: 6%;
+  margin-left: 15%;
+  margin-top: 3%;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(4, 153, 221) 0%, rgb(23, 193, 188) 100%);
+}
+.footer__top-cont .footBtn a {
+  text-decoration: none;
+  color: #FFF;
+}
+.footer__btm {
+  width: 100%;
+  height: 27.7%;
+  display: flex;
+  background: #FFF;
+}
+.footer__btm a {
+  text-decoration: none;
+  color: #282828;
+}
+.footer__btm-logo {
+  width: 10%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.footer__btm-list {
+  width: 20%;
+  margin: 7% 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.footer__btm-list2 {
+  width: 50%;
+  display: flex;
+  margin-left: 20%;
+}
+.footer__btm-list2-numbers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-right: 5%;
+  gap: 4.9%;
+}
+.footer__btm-list2-social {
+  margin: 9%;
+  margin-top: 15%;
+}
+.footer__btm-list2-social .logoLinks {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 800px;
+  }
+  .footer__top {
+    width: 100%;
+    height: 80%;
+    background: url(/img/Rectangle\ 272.png) no-repeat;
+  }
+  .footer__top-cont {
+    margin-left: 40%;
+    width: 55%;
+    height: 100%;
+  }
+  .footer__btm {
+    width: 100%;
+  }
+  .footer__btm-logo {
+    width: 12%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  .footer__btm-list {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .footer__btm-list2 {
+    width: 50%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer__btm-list2-numbers {
+    margin-top: 10%;
+    width: 70%;
+  }
+  .footer__btm-list2-social {
+    margin-top: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 33%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    width: 100%;
+    height: 1000px;
+  }
+  .footer__top {
+    width: 100%;
+    height: 80%;
+    background: url(/img/Rectangle\ 273.png) no-repeat;
+    background-size: contain;
+  }
+  .footer__top-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+    height: 70%;
+  }
+  .footer__btm {
+    width: 100%;
+    display: block;
+  }
+  .footer__btm .logoImg {
+    width: 150px;
+  }
+  .footer__btm .socialImg {
+    width: 20px;
+  }
+  .footer__btm a {
+    font-size: xx-small;
+  }
+  .footer__btm a img {
+    width: 10px;
+  }
+  .footer__btm-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25%;
+  }
+  .footer__btm-logo img {
+    width: 30%;
+  }
+  .footer__btm-list {
+    width: 39%;
+  }
+  .footer__btm-list2 {
+    width: 60%;
+    position: relative;
+  }
+  .footer__btm-list2-numbers {
+    width: 120%;
+    position: absolute;
+    left: 230px;
+    top: -85px;
+  }
+  .footer__btm-list2-social {
+    width: 120%;
+    position: absolute;
+    left: 230px;
+    top: -50px;
+  }
+  .footer__btm-list2-social .logoLinks {
+    position: absolute;
+    top: -150px;
+    left: -65px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
