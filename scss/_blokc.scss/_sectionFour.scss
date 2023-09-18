@@ -1,0 +1,28 @@
+.section4{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    &-img{
+        width: 1300px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section4{
+        width: 100%;
+        &-img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:390px){
+    .section4{
+        width: 100%;
+        &-img{
+            width: 100%;
+        }
+    }
+}
