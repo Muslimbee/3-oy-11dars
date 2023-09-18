@@ -1,0 +1,40 @@
+.section5{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    // &-dp{
+    //     display: flex;
+    //     width: 100%;
+    //     height: 10%;
+    //     border: 1px solid;
+    // }
+    .section5-container-dp{
+        display: flex;
+        // border: 1px solid;
+        // width: 80%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        margin-left: 200px;
+       .section5-container-1{
+        width: 555px;
+        height: 322px;
+       }
+       .section5-container-img-2{
+        width: 400px;
+        height: 322px;
+       }
+
+    }
+
+}
+
+
+
+@media screen and (max-width:768px){
+    .section5{
+        width: 100%;
+    }
+}
