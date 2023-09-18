@@ -1,0 +1,149 @@
+.hero {
+    &__top {
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        background-image: url(/img/hero\ image.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top: -105px;
+        &-child {
+            position: absolute;
+            top: 300px;
+            // border: 1px solid #fff;
+        }
+        button {
+            background: var(--blue-grad, linear-gradient(93deg, #0499DD 0%, #17C1BC 100%));
+        }
+        h1 {
+            color: #fff;
+            font-size: 72px;
+        }
+        .pero-travel {
+            position: absolute;
+            top: 105px;
+        }
+        .pero-travel2 {
+            display: none;
+        }
+        h2 {
+            position: absolute;
+            font-size: 36px;
+            font-style: italic;
+            color: #FFC700;
+            top: 62px;
+            right: -90px;
+        }
+        button {
+            position: absolute;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            padding: 14px 34px;
+            top: 260px;
+        }
+        &-icons {
+            position: relative;
+            top: 420px;
+            left: 1200px;
+            .fa-brands {
+                font-size: 35px;
+                color: #fff;
+            }
+        }
+
+        &-image {
+            position: relative;
+            img {
+                position: absolute;
+                bottom: -970px;
+                right: 0;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        &__top {
+            h1 {
+                font-size: 50px;
+            }
+            h2 {
+                font-size: 36px;
+                top: 50px;
+                right: -90px;
+            }
+            .pero-travel {
+                display: none;
+            }
+            .pero-travel2 {
+                display: block;
+                position: absolute;
+                top: 95px;
+            }
+            button {
+                top: 340px;
+            }
+            &-icons {
+                top: 460px;
+                left: 650px;
+                .fa-brands {
+                    font-size: 30px;
+                }
+            }
+            &-image {
+                img {
+                    right: -20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .hero {
+        &__top {
+            height: 900px;
+            &-child {
+                top: 220px;
+            }
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 34px;
+                top: 30px;
+                right: -24px;
+            }
+            .pero-travel2 {
+                display: block;
+                width: 300px;
+                position: absolute;
+                top: 70px;
+            }
+            button {
+                top: 260px;
+            }
+            &-icons {
+                top: 620px;
+                left: 300px;
+                .fa-brands {
+                    font-size: 30px;
+                }
+            }
+            &-image {
+                img {
+                    width: 380px;
+                    right: -20px;
+                    bottom: -840px;
+                }
+            }
+        }
+    }
+}
