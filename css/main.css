@@ -526,7 +526,6 @@ a {
 }
 .section5 .section5-container-dp {
   display: flex;
-  border: 1px solid;
   height: 500px;
   display: flex;
   align-items: center;
